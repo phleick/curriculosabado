@@ -1,0 +1,22 @@
+.foto-perfil {
+    border-radius: 200%;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-imprimir {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}

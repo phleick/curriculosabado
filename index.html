@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Curriculo Raphael Leick</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container mt-3">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <section>
+                        <img
+                            class="foto-perfil"
+                            src="assets/img/fotoperfil.jpeg"
+                        />
+                    </section>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <section>
+                        <h4>Informações Pessoais</h4>
+                        <hr />
+                        <ul class="list">
+                            <li><h6>Nome: Raphael Leick Pereira</h6></li>
+                            <li><h6>Idade: 33 anos</h6></li>
+                            <li><h6>Naturalidade: Porto Alegre</h6></li>
+                            <li><h6>Estado Civil: Casado</h6></li>
+                        </ul>
+                        <hr />
+                    </section>
+                </div>
+                <div class="col-md-6 text-center">
+                    <section>
+                        <h4>Informações de Contato</h4>
+                        <hr />
+                        <ul class="list-unstyled">
+                            <li><h6>Telefone: (51)98025-2715</h6></li>
+                            <li><h6>Email: phleick@gmail.com</h6></li>
+                            <li>
+                                <h6>
+                                    Endereço: Pinheiro Machado, 822 Taquara/RS
+                                </h6>
+                            </li>
+                            <li><h6>Complemento: Apto 204</h6></li>
+                        </ul>
+                        <hr />
+                    </section>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <section>
+                        <h4>Experiências Profissionais</h4>
+                        <hr />
+                        <ul class="list">
+                            <li>
+                                <h6>
+                                    (Out/2022 - Momento) / Lighthouse<br />
+                                    QA - Quality Assurance
+                                </h6>
+                            </li>
+                            <li>
+                                <h6>
+                                    (Set/2019 - Mar/2022) / Magazine Luiza<br />
+                                    Vendedor
+                                </h6>
+                            </li>
+                            <li>
+                                <h6>
+                                    (Fev/2010 - Ago/2019) / CenterSul<br />
+                                    Gerente Comercial
+                                </h6>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-md-6 text-center">
+                    <section>
+                        <h4>Habilidades</h4>
+                        <hr />
+                        <ul class="list-unstyled">
+                            <li><h6>Testes Manuais</h6></li>
+                            <li><h6>CMS / Oracle</h6></li>
+                            <li><h6>Azure Devops</h6></li>
+                            <li><h6>Jira</h6></li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <button id="botao-imprimir" class="btn btn-primary btn-imprimir">
+            Imprimir
+        </button>
+
+        <script>
+            function imprimirPagina() {
+                window.print();
+            }
+
+            const botaoImprimir = document.getElementById("botao-imprimir");
+            botaoImprimir.addEventListener("click", imprimirPagina);
+        </script>
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
